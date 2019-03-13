@@ -1,0 +1,102 @@
+h2{
+    font-weight: bold;
+}
+
+.titleFellows .nav-link{
+    color: gray;
+}
+
+.titleFellows .nav-link :active{
+    background-color: gray;
+    color: antiquewhite;
+}
+
+li .nav-item{
+    justify-content: space-between;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.row{
+    margin-left: 40px;
+}
+
+.card{
+    padding: 0;
+}
+
+.photofellows{
+    width: 100%;
+    height: 80%;
+    display: block;
+    opacity: 0.5;
+}
+
+.reward_fellows{
+    position: absolute;
+    top: 20px;
+    border: 1px;
+    border-radius: 0.5em;
+    background-color: rgb(224, 216, 216);
+    text-align: center;
+    width: 80%;
+    height: 90px;
+    font-size: 1.5em;
+    margin: 5px 1px 0 30px;
+    padding-top: 15px;   
+}
+
+.reward_fellows .darkorange{
+    color: darkorange;
+}
+
+.dead{
+    position: absolute;
+    font-size: 60px;
+    text-transform: uppercase;
+    top: 140px;
+    left: 90px;
+}
+
+.name_fellows{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 50%;
+    left: 20%;
+}
+
+footer{
+    background-color: #424242;
+    padding-top: 10px;
+}
+
+footer nav ul{
+    list-style: none;
+}
+
+footer li a{
+    color:white;
+}
+
+.card:hover img{
+    opacity:1;
+}
+
+.card:hover .reward_fellows{
+    display: none;
+}
+
+.card:hover .dead{
+    color:white;
+}
+
+.card:hover .name_fellows{
+    font-size: 30px;
+    opacity: 1;
+    top: 68%;
+    bottom: 0;
+    left: 30%;
+}
